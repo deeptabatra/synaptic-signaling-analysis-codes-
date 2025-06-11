@@ -1,4 +1,4 @@
-# synaptic-signaling-analysis-codes-
+# synaptic-signaling-analysis-codes(2)
 Python code for mass spectrometry-based synaptic signaling analysis- phosphosite mapping analysis
 
 Phosphorylation Site Mapping

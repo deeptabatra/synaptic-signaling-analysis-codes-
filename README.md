@@ -6,6 +6,8 @@ The process begins with the identification of PTM modifications on peptide seque
 To quantitatively assess the extent of phosphorylation, "Phospho density" is calculated using the following formula :
 PhosphoDensity=ProteinLengthPhosphoSiteCount​
 This metric provides a measure of how densely a protein is phosphorylated, offering insights into the overall phosphorylation status of individual proteins.
+
+
 Kinase Analysis
 Kinase analysis aims to identify proteins exhibiting kinase activity and to characterize their potential roles in regulating synaptic signaling pathways.
 Proteins showing kinase activity are identified based on the phosphorylation site mapping results, initially using 0.75 and 0.55 confidence thresholds. To ascertain the novelty of these findings, the PhosphoSitePlus server is utilized. This server helps determine if the identified phosphorylated residues and their specific locations are previously documented in public databases or represent novel findings.1 Furthermore, the InterPro Server is employed to perform motif prediction on identified kinase proteins. This step aids in understanding the conserved functional domains and potential binding sites within these proteins, providing structural and functional context.

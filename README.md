@@ -4,8 +4,10 @@ Python code for mass spectrometry-based synaptic signaling analysis- phosphosite
 Phosphorylation Site Mapping
 Phosphorylation site mapping constitutes a critical component of synaptic signaling analysis, focusing on the identification of post-translational modifications (PTMs), specifically phosphorylation sites, on peptide sequences.1
 The process begins with the identification of PTM modifications on peptide sequences, and the confidence in these detections is assessed using three distinct thresholds: 0.75, 0.55, and no threshold.1 Following this, the specific phosphorylated residue (Serine (S), Threonine (T), or Tyrosine (Y)) and its precise location on the full protein sequence are determined. Identified proteins are then cross-referenced with UniProt, a comprehensive protein knowledgebase, to ascertain if they are known phosphorylation targets based on their annotated functions.
+
 To quantitatively assess the extent of phosphorylation, "Phospho density" is calculated using the following formula :
 PhosphoDensity=ProteinLengthPhosphoSiteCount​
+
 This metric provides a measure of how densely a protein is phosphorylated, offering insights into the overall phosphorylation status of individual proteins.
 
 
